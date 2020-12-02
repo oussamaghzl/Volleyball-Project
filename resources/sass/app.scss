@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import './modules/_navbar.sass';
+
+@import './modules/_home.sass';
+
+@import './modules/_equipe.sass';
+
+@import './modules/_show.sass';
+
+@import './modules/_dashboard.sass';
+
+@import './modules/_footer.sass';
+
+
+body{
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
